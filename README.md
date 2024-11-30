@@ -41,7 +41,7 @@ This should work on devices that has not done a clean install but we do suggest 
 - Unlocked bootloader (can be relocked on stock firmwares)
 
 # WARNING:
-Backup any current bootanimations before flashing this script they cannot be recovered once you do this, only way to get it back us either via a system update or OS reflash you have been warned, i am not responsible for any damages to your device from using thus script or loss of your stock bootanimations that you didn't backup!
+Backup any current bootanimations before flashing this script they cannot be recovered once you do this, only way to get it back is either via a system update or OS reflash you have been warned, i am not responsible for any damages to your device from using thus script or loss of your stock bootanimations that you didn't backup!
 
 
 
