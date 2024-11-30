@@ -1,4 +1,4 @@
-I'm# Cyberdev's Bootanimation Installer Script!
+# Cyberdev's Bootanimation Installer Script!
 
 ## What is this?
 This script is designed to install any bootanimation to /product/media directly via adb.
