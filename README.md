@@ -7,7 +7,7 @@ Giving the end user complete customization of what kind of bootanimation they wa
 
 
 ## How does it work?
-This script works like a gapps package, but in a way not exactly like a gapps package, when you send over the package via adb to your custom recovery will recognize it as a gappps package this was done this way because the /product partition is set to read-only so nothing can be written unless your system is preset to r/w, this will temporarily set /product to r/w and install your bootanimation then set it back to read-only or whatever it was before being set to r/w stock usually sets it to Read-Only.
+This script works like a gapps package, but in a way not exactly like a gapps package normally would work, when you send over the package via adb to your custom recovery will recognize it as a gapps package this was done this way because the /product partition is set to read-only so nothing can be written unless your system is preset to r/w, this will temporarily set /product to r/w and install your bootanimation then set it back to read-only or whatever it was before being set to r/w stock usually sets it to Read-Only.
 
 However this gapps package will not remove anything or any other gapps package you installed previously so you do not need to worry about interfering with a current or previous gapps installation, your install of gapps is safe!
 
