@@ -30,7 +30,7 @@ Then on your PC send over the package via adb by using this command
 
 This shouldn't take long.
 
-now if you're flashing a new rom, before flashing this package, install your desired gapps package first then then reboot into recovery again and then flash this oackage. before rebooting into yournOS for the first time.
+now if you're flashing a new rom, before flashing this package, install your desired gapps package first then then reboot into recovery again and then flash this package before rebooting into your OS.
 
 This should work on devices that has not done a clean install but we do suggest it if possible!
 
