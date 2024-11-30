@@ -12,7 +12,7 @@ This script works like a gapps package, but in a way not exactly like a gapps pa
 However this script will not remove anything or any other gapps package you installed previously so you do not need to worry about interfering with a current or previous gapps installation, your install of gapps is safe!
 
 
-## How do i install a bootanimtion?
+## How do i install a bootanimation?
 To install a bootanimation find a bootanimation you want to use, we suggest using bootanimations that have is a set for example:
 
 - bootanimation-dark.zip
