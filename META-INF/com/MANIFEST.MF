@@ -1,0 +1,130 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: META-INF/com/google/android/updater-script
+SHA-256-Digest: B9hhKH9gZNRvpVC9Pgwlh9Z3MqPeIzxm6J3ds5SfFSQ=
+
+Name: system/product/app/GoogleContactsSyncAdapter/GoogleContactsSyncAda
+ pter.apk
+SHA-256-Digest: U5ak3fgY9ppR00oQqyPINWrdFx7yOU9bvKnmO3RZT04=
+
+Name: system/product/priv-app/GmsCore/GmsCore.apk
+SHA-256-Digest: ot4TI34nkBuDy17QQhKdLL9TNjRnm/Y7j/DAXOBD85c=
+
+Name: system/system_ext/priv-app/GoogleFeedback/GoogleFeedback.apk
+SHA-256-Digest: tREC9nxC2Pi6jirHTGfNXIHBNmVYkJRWPljUbfG4BCs=
+
+Name: system/product/lib64/libjni_latinimegoogle.so
+SHA-256-Digest: sQSZg+asXPxtHGbjiVl1EET60hPf8GN6bPHSonA+dU8=
+
+Name: system/product/overlay/GmsOverlay.apk
+SHA-256-Digest: yDmSLeLi8kVsmzDPUokDzGXvGgOYtK1g9HOl4s2o8jU=
+
+Name: system/product/priv-app/Velvet/Velvet.apk
+SHA-256-Digest: 9a6KQMPpX2EZ02Ge36g9sCdhKNnxDInli57uxNeuhh4=
+
+Name: system/product/priv-app/GooglePartnerSetup/GooglePartnerSetup.apk
+SHA-256-Digest: zmorWDxAJdVCooFnZHCA+kXqLnH9BJNuVhG1IL/Tm7I=
+
+Name: system/addon.d/addond_tail
+SHA-256-Digest: A8g4vnHngXXyccvSZEJdhGv99ERO5HALgF7EJdrCYB8=
+
+Name: system/product/etc/sysconfig/google_build.xml
+SHA-256-Digest: ckh13JX3+365UHFPmkdKmjBOCBYm2TZGR+AkCeS9rpw=
+
+Name: system/system_ext/priv-app/GoogleServicesFramework/GoogleServicesF
+ ramework.apk
+SHA-256-Digest: n7mYmtzvY1skYEvI9mdpi1JlzlhfVAIvN7MM3WaOXe8=
+
+Name: system/product/app/PrebuiltExchange3Google/PrebuiltExchange3Google
+ .apk
+SHA-256-Digest: P2XF+52h40FZA3NJelIMGLKG60SUbQsbao5YjmmFrNs=
+
+Name: system/product/etc/sysconfig/d2d_cable_migration_feature.xml
+SHA-256-Digest: NkNy1buHu/IrJiixTitW1SH7F84n34BHE8b76i6yCIw=
+
+Name: system/product/app/talkback/talkback.apk
+SHA-256-Digest: VL2p4Jg9mY4tBMKiDEzsN0YaeDXbBzWbWWuT7lYd7cQ=
+
+Name: system/product/etc/sysconfig/google.xml
+SHA-256-Digest: pBk7h9VZ7UYaTE8csuSlkS2TsfR/z2PjSl4Z+EGJekw=
+
+Name: build.prop
+SHA-256-Digest: mjOZYHgyWAXU7DRQGGERiK15bHhMALRXP2rcZM0aRUU=
+
+Name: system/product/etc/default-permissions/default-permissions-google.
+ xml
+SHA-256-Digest: PN7IaF99Xp3TaKgtOBTqCi9DdgY2K6eb+TLdaNEfmO4=
+
+Name: system/addon.d/addond_head
+SHA-256-Digest: Uj8YpM2VMUfEhJVcuipDw647wAgvoU7UmQmLrdaT+cM=
+
+Name: META-INF/com/android/otacert
+SHA-256-Digest: 79ReB9KaE9tg9ttGpti3xC9l7WV7J0o+lGyFB2a8E5k=
+
+Name: META-INF/com/google/android/update-binary
+SHA-256-Digest: l2w5xkbuEbeYqOiBWg+G4OuYcvQxzO2UAgKjJ9KoHQs=
+
+Name: system/product/etc/sysconfig/google-hiddenapi-package-allowlist.xm
+ l
+SHA-256-Digest: R2Eod6lITZQmqZZIQwFvDaNBU/fxRG+6vPun5Gl5DNE=
+
+Name: system/product/app/SpeechServicesByGoogle/SpeechServicesByGoogle.a
+ pk
+SHA-256-Digest: 7qiOzfpO4WK59APU3JzY/NBy2QRJtPsPkBT/CPNRLhE=
+
+Name: system/product/framework/com.google.android.dialer.support.jar
+SHA-256-Digest: WEhZ+U/i3QxK7GX1FKmQtvT8gpC/11ZeL+A212Gu6J4=
+
+Name: system/product/etc/permissions/privapp-permissions-google-product.
+ xml
+SHA-256-Digest: ewy1YIpayd09HjZJ9LwHg8Fm4qwAOlxmDd5iubsnQ5Q=
+
+Name: system/product/priv-app/AndroidAutoStub/AndroidAutoStub.apk
+SHA-256-Digest: H9C8uTdqONtNNLjpyBaP1DGk5UdnCtb4I8DhIwepLCk=
+
+Name: system/product/etc/init/gapps.rc
+SHA-256-Digest: rZRgSrZJBkoOwuhWmiI1PB2CNRcf7KvXSEGlGI505Ac=
+
+Name: toybox
+SHA-256-Digest: WqyvIgKfbbOGvpXf0iYy2mcJiUnz/so0KgMBw5s/hIY=
+
+Name: system/product/etc/default-permissions/default-permissions-mtg.xml
+SHA-256-Digest: jyaaP7t7rxLGWBjasSytLlDL/rjH022l+CV/fXH3xn4=
+
+Name: system/system_ext/priv-app/SetupWizard/SetupWizard.apk
+SHA-256-Digest: SOkzm3/8sbIO+erb0yq4ro/VvQAi2v0jiKX+VpvqJTg=
+
+Name: system/product/priv-app/Phonesky/Phonesky.apk
+SHA-256-Digest: ouun83uvPVD9NzyENs2ZrNdYmDXJ0rDJ7Ew9yoMNM3s=
+
+Name: system/product/app/GoogleCalendarSyncAdapter/GoogleCalendarSyncAda
+ pter.apk
+SHA-256-Digest: BEzFe84vauOTDCj9eErhKheB/wnSBNtQ53UJPs7xJmE=
+
+Name: system/product/etc/security/fsverity/gms_fsverity_cert.der
+SHA-256-Digest: Gnj11wuHRBx9EzhBeeN39PMQW+JYFO7wXNldG3Nndbk=
+
+Name: system/product/overlay/GmsSettingsProviderOverlay.apk
+SHA-256-Digest: xUWY1cwlEOvvn+JajVtxnhJbSqEYdYYyfqFxrBOveNA=
+
+Name: system/product/priv-app/GoogleRestore/GoogleRestore.apk
+SHA-256-Digest: DpBrKuxiw4TQD2bOpH2ArIpeoH3n/an5yV/odeXuPJI=
+
+Name: system/product/etc/permissions/com.google.android.dialer.support.x
+ ml
+SHA-256-Digest: s7UwgoJZ6Brf+9eM1kc1r+ZYSfeNwrsJti4UuN3vMkQ=
+
+Name: system/system_ext/etc/permissions/privapp-permissions-google-syste
+ m-ext.xml
+SHA-256-Digest: DlxS+mXUV0xZbCC+1Bq7ifEGdQ05+QFfISIU6jY5DJw=
+
+Name: system/product/priv-app/VelvetTitan/VelvetTitan.apk
+SHA-256-Digest: YKeX1HsObOgTwGl3meSPKGP+yth+FYNz4GY6zlQzQUo=
+
+Name: system/product/app/MarkupGoogle/MarkupGoogle.apk
+SHA-256-Digest: HfYxrGViKXOoa72vO3J5pghXsfcBpfIlG2BJXk878G0=
+
+Name: system/product/lib/libjni_latinimegoogle.so
+SHA-256-Digest: RCoqi/yyVIlWS8lDOpFvpNwNupAA/m9vA/WTm5hQkeY=
+
