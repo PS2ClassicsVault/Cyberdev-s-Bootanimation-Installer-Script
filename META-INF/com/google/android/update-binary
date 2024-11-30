@@ -107,7 +107,7 @@ compute_apps_size() {
 ui_print "****************************"
 ui_print "        Cyberdev's          "
 ui_print "  Bootanimation Installer   "
-ui_print "        Android 15          "
+ui_print "        Android 13          "
 ui_print "****************************"
 
 ui_print "Extracting files"
