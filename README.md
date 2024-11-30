@@ -13,7 +13,7 @@ However this script will not remove anything or any other gapps package you inst
 
 
 ## How do i install a bootanimtion?
-To install a bootanimation find a bootanimation you want to use, we suggest using bootsnimations that have is a set for example:
+To install a bootanimation find a bootanimation you want to use, we suggest using bootanimations that have is a set for example:
 
 - bootanimation-dark.zip
 - bootanimation.zip
