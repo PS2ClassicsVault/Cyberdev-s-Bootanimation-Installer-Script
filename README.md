@@ -1,4 +1,4 @@
-# Cyberdev's Bootanimation Installer Script!
+I'm# Cyberdev's Bootanimation Installer Script!
 
 ## What is this?
 This script is designed to install any bootanimation to /product/media directly via adb.
@@ -26,7 +26,7 @@ Now extract the script and in that folder just place your files in "/system/prod
 
 Then on your PC send over the package via adb by using this command
 
-.\adb -d sideload filename.zip
+'.\adb -d sideload filename.zip'
 
 This shouldn't take long.
 
