@@ -25,6 +25,20 @@ getprop2() {
   grep -m 1 "^$2=" $1 | cut -d= -f2
 }
 
+nice_arch() {
+  case $1 in
+    aarch64*|armv8*)
+      echo "arm64"
+      ;;
+    arm*)
+      echo "arm"
+      ;;
+    *)
+      echo $1
+      ;;
+  esac
+}
+
 cleanup() {
   ui_print "Cleaning up files"
   rm -rf $TMP/system
@@ -107,7 +121,7 @@ compute_apps_size() {
 ui_print "****************************"
 ui_print "        Cyberdev's          "
 ui_print "  Bootanimation Installer   "
-ui_print "        Android 15          "
+ui_print "        Android 11          "
 ui_print "****************************"
 
 ui_print "Extracting files"
@@ -120,9 +134,9 @@ rm -rf META-INF
 # compiled for a different architecture. Just hope that all environments have at least
 # a proper `grep` and `uname`.
 GAPPS_ARCH=$(getprop2 $TMP/build.prop arch)
-CPU_ARCH=$(getprop ro.bionic.arch)
+CPU_ARCH=$(uname -m)
 if [ $GAPPS_ARCH != $CPU_ARCH ]; then
-  error "This package is built for $GAPPS_ARCH but your device is $CPU_ARCH! Aborting"
+  error "This package is built for $(nice_arch $GAPPS_ARCH) but your device is $(nice_arch $CPU_ARCH)! Aborting"
 fi
 
 ui_print "Setting up environment"
@@ -233,16 +247,6 @@ fi
 STORAGE_BUFFER=10240
 
 cd system
-
-# Detect tangorpro
-DEVICE=$(getprop ro.build.product)
-if [ "$DEVICE" == "tangorpro" ]; then
-  ui_print "Detected tangorpro device. Deleting normal Velvet app"
-  rm -rf product/priv-app/Velvet
-else
-  rm -rf product/priv-app/VelvetTitan
-fi
-
 compute_apps_size
 
 if [ "$SYSTEM_STORAGE" -lt "$NEEDED_STORAGE_SYSTEM" ]; then
@@ -260,11 +264,7 @@ if [ -n "$PRODUCT_BLOCK" ] && [ "$PRODUCT_STORAGE" -lt "$NEEDED_STORAGE_PRODUCT"
   fi
 fi
 if [ -n "$SYSTEM_EXT_BLOCK" ] && [ "$SYSTEM_EXT_STORAGE" -lt "$NEEDED_STORAGE_SYSTEM_EXT" ]; then
-  remove_big_optional_apps
-  compute_apps_size
-  if [ "$SYSTEM_EXT_STORAGE" -lt "$NEEDED_STORAGE_SYSTEM_EXT" ]; then
-    error_no_space
-  fi
+  error_no_space
 fi
 
 ui_print "Generating addon.d file"
@@ -301,7 +301,7 @@ if [ -n "$SYSTEM_EXT_BLOCK" ]; then
   cp --preserve=a -r ./system_ext/* /system_ext
 fi
 
-if [ -e system_ext/priv-app/SetupWizard ] ; then
+if [ -e product/priv-app/SetupWizardPrebuilt ] ; then
   rm -rf "${SYSTEM_OUT}/system_ext/priv-app/Provision"
 fi
 
