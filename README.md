@@ -26,7 +26,7 @@ Now extract the script and in that folder just place your files in "/system/prod
 
 Then on your PC send over the package via adb by using this command
 
-.\adb -d sideload filename.zip
+`.\adb -d sideload filename.zip`
 
 This shouldn't take long.
 
