@@ -18,7 +18,7 @@ To install a bootanimation find a bootanimation you want to use, we suggest usin
 - bootanimation-dark.zip
 - bootanimation.zip
 
-This is recommended because most devices have these two files anyways, the difference between both is both are the same animation but bootanimation.zip is the light version and the bootanimation-dark.zip.is the dark version for the boot animation.
+This is recommended because most devices have these two files anyways, the difference between both is both are the same animation but bootanimation.zip is the light version and the bootanimation-dark.zip is the dark version for the boot animation.
 
 You can change one or both but it would make no sens to have two different ones it would make things confusing and not worth it.
 
