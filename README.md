@@ -44,7 +44,7 @@ There are 5 versions for different versions of android, if your looking to see i
 # FAQ
 
 ## Is this hardware dependent or OS dependent?
-- This is OS dependent as it requires a specific version of android you need to have installed for the version of the installer your trying to use to function or even proceed with the installation, however the only limitations this script is that it only supports arm64-v8a devices, not armeabi-v7a devices!
+- This is OS dependent as it requires a specific version of android you need to have installed for the version of the installer your trying to use to function or even proceed with the installation, however the only limitations this script has is that it only supports arm64-v8a devices, not armeabi-v7a devices!
 
 ## Can i request script support for other versions of android beyond what is currently available in this repository?
 - No, that unfortunately would take a lot of my time that i frankly so not have these days.
