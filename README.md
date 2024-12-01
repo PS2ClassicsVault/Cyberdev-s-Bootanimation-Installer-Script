@@ -15,14 +15,14 @@ However this script will not remove anything or any other gapps package you inst
 ## How do i install a bootanimation?
 To install a bootanimation find a bootanimation you want to use, we suggest using bootanimations that have is a set for example:
 
-- bootanimation-dark.zip
-- bootanimation.zip
+- `bootanimation-dark.zip`
+- `bootanimation.zip`
 
 This is recommended because most devices have these two files anyways, the difference between both is both are the same animation but bootanimation.zip is the light version and the bootanimation-dark.zip is the dark version for the boot animation.
 
 You can change one or both but it would make no sense to have two different ones it would make things confusing and not worth it.
 
-Now extract the script and in that folder just place your files in "/system/product/media" then go back to the root of the script and compress all 5 files back into a zip and then reboot into your custom recovery and choose. apply update over adb.
+Now extract the script and in that folder just place your files in `/system/product/media` then go back to the root of the script and compress all 5 files back into a zip and then reboot into your custom recovery and choose. apply update over adb.
 
 Then on your PC send over the package via adb by using this command
 
@@ -44,7 +44,7 @@ There are 5 versions for different versions of android, if your looking to see i
 # FAQ
 
 ## Is this hardware dependent or OS dependent?
-- This is OS dependent as it requires a specific version of android you need to have installed for the then version of the installer your trying to use to function or even proceed with the installation, however the only limitations this script is that it only supports arm64-v8a devices, not armeabi-v7a devices!
+- This is OS dependent as it requires a specific version of android you need to have installed for the version of the installer your trying to use to function or even proceed with the installation, however the only limitations this script is that it only supports arm64-v8a devices, not armeabi-v7a devices!
 
 ## Can i request script support for other versions of android beyond what is currently available in this repository?
 - No, that unfortunately would take a lot of my time that i frankly so not have these days.
@@ -61,6 +61,7 @@ There are 5 versions for different versions of android, if your looking to see i
 - This script does not include any bootanimation you must provide that on your own, you can do that by extracting the script and placing the bootanimation into the following folder within the script `/system/product/media` then recompress the script and then run the command to flash the script via adb.
 
 # Additional Information:
+
 ## WARNING:
 Backup any current bootanimations before flashing this script they cannot be recovered once you do this, only way to get it back is either via a system update or OS reflash you have been warned, i am not responsible for any damages to your device from using this script or loss of your stock bootanimations that you didn't backup!
 
