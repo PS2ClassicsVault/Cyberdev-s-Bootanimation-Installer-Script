@@ -55,7 +55,7 @@ There are 5 versions for different versions of android, if your looking to see i
 `/product/media`
 
 ## Do i need any software on my pc to use adb/fastboot?
-- Yes, you will need platform-tools to use adb we recommedn downloading it from [here](https://technastic.com/android-sdk-platform-tools-download/) extract it and then put our script in the platform-tools and then open a terminal that leads to that directory of the platform-tools folder and then run the command we mention ealier in this readme to flash our script!
+- Yes, you will need platform-tools to use adb we recommend downloading it from [here](https://technastic.com/android-sdk-platform-tools-download/) extract it and then put our script in the platform-tools and then open a terminal that leads to that directory of the platform-tools folder and then run the command we mention ealier in this readme to flash our script!
 
 It is also recommended that you have installed the device drivers from your manufacturers website if they are available or required by your device for your PC to be reconized by adb.
 
