@@ -36,9 +36,13 @@ This should work on devices that has not done a clean install but we do suggest 
 
 ## What are the requirements to use this script?
 - Custom Recovery
-- Android 15 SDK35
 - Arm64-v8a device
 - Unlocked bootloader (can be relocked on stock firmwares)
+
+There are 5 versions for different versions of android, if your looking to see if your android version is supported please look in the [releases](url) section of this repository to see if your android version is supported
+
+## Is this hardware dependent or OS dependent?
+- This is android dependent as it requires a specific version of android you need to have installed for the installer to function or even proceed with the installation, however the only limitations this script has is it only supports arm64-v8a devices, not armeabi-v7a devices!
 
 # WARNING:
 Backup any current bootanimations before flashing this script they cannot be recovered once you do this, only way to get it back is either via a system update or OS reflash you have been warned, i am not responsible for any damages to your device from using this script or loss of your stock bootanimations that you didn't backup!
