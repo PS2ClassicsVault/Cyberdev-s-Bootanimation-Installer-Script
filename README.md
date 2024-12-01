@@ -39,7 +39,7 @@ This should work on devices that has not done a clean install but we do suggest 
 - Arm64-v8a device
 - Unlocked bootloader (can be relocked on stock firmwares)
 
-There are 5 versions for different versions of android, if your looking to see if your android version is supported please look in the [releases](url) section of this repository to see if your android version is supported
+There are 5 versions for different versions of android, if your looking to see if your android version is supported please look in the [releases](https://github.com/PS2ClassicsVault/Cyberdev-s-Bootanimation-Installer-Script/releases) section of this repository to see if your android version is supported
 
 ## Is this hardware dependent or OS dependent?
 - This is android dependent as it requires a specific version of android you need to have installed for the installer to function or even proceed with the installation, however the only limitations this script has is it only supports arm64-v8a devices, not armeabi-v7a devices!
