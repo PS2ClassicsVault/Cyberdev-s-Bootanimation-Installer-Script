@@ -47,7 +47,7 @@ There are 5 versions for different versions of android, if your looking to see i
 - This is OS dependent as it requires a specific version of android you need to have installed for the version of the installer your trying to use to function or even proceed with the installation, however the only limitations this script has is that it only supports arm64-v8a devices, not armeabi-v7a devices!
 
 ## Can i request script support for other versions of android beyond what is currently available in this repository?
-- No, that unfortunately would take a lot of my time that i frankly so not have these days.
+- No, that unfortunately would take a lot of my time that i frankly do not have these days.
 
 ## How do i backup my current bootanimation?
 - I recommend using a file manager that can access the root of your device easily to backup your files, they are usally in this directory
