@@ -57,6 +57,8 @@ There are 5 versions for different versions of android, if your looking to see i
 ## Do i need any software on my pc to use adb/fastboot?
 - Yes, you will need platform-tools to use adb we recommedn downloading it from [here](https://technastic.com/android-sdk-platform-tools-download/) extract it and then put our script in the platform-tools and then open a terminal that leads to that directory of the platform-tools folder and then run the command we mention ealier in this readme to flash our script!
 
+It is also recommended that you have installed the device drivers from your manufacturers website if they are available or required by your device for your PC to be reconized by adb.
+
 ## Does this script come with it's own bootanimation or do i need to provide my own?
 - This script does not include any bootanimation you must provide that on your own, you can do that by extracting the script and placing the bootanimation into the following folder within the script `/system/product/media` then recompress the script and then run the command to flash the script via adb.
 
