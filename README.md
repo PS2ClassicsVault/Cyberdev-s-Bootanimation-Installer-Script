@@ -41,10 +41,27 @@ This should work on devices that has not done a clean install but we do suggest 
 
 There are 5 versions for different versions of android, if your looking to see if your android version is supported please look in the [releases](https://github.com/PS2ClassicsVault/Cyberdev-s-Bootanimation-Installer-Script/releases) section of this repository to see if your android version is supported
 
-## Is this hardware dependent or OS dependent?
-- This is android dependent as it requires a specific version of android you need to have installed for the installer to function or even proceed with the installation, however the only limitations this script has is it only supports arm64-v8a devices, not armeabi-v7a devices!
+# FAQ
 
-# WARNING:
+## Is this hardware dependent or OS dependent?
+- This is OS dependent as it requires a specific version of android you need to have installed for the then version of the installer your trying to use to function or even proceed with the installation, however the only limitations this script is that it only supports arm64-v8a devices, not armeabi-v7a devices!
+
+## Can i request script support for other versions of android beyond what is currently available in this repository?
+- No, that unfortunately would take a lot of my time that i frankly so not have these days.
+
+## How do i backup my current bootanimation?
+- I recommend using a file manager that can access the root of your device easily to backup your files, they are usally in this directory
+
+`/product/media`
+
+## Do i need any software on my pc to use adb/fastboot?
+- Yes, you will need platform-tools to use adb we recommedn downloading it from [here](https://technastic.com/android-sdk-platform-tools-download/) extract it and then put our script in the platform-tools and then open a terminal that leads to that directory of the platform-tools folder and then run the command we mention ealier in this readme to flash our script!
+
+## Does this script come with it's own bootanimation or do i need to provide my own?
+- This script does not include any bootanimation you must provide that on your own, you can do that by extracting the script and placing the bootanimation into the following folder within the script `/system/product/media` then recompress the script and then run the command to flash the script via adb.
+
+# Additional Information:
+## WARNING:
 Backup any current bootanimations before flashing this script they cannot be recovered once you do this, only way to get it back is either via a system update or OS reflash you have been warned, i am not responsible for any damages to your device from using this script or loss of your stock bootanimations that you didn't backup!
 
 
