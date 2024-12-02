@@ -107,8 +107,10 @@ compute_apps_size() {
 ui_print "****************************"
 ui_print "        Cyberdev's          "
 ui_print "  Bootanimation Installer   "
-ui_print "        Android 15          "
+ui_print "      Android 15 BETA       "
 ui_print "****************************"
+ui_print " Will install bootanimation "
+ui_print " in /system/media directory "
 
 ui_print "Extracting files"
 TMP=/tmp
@@ -295,7 +297,7 @@ done
 ui_print "Installing bootanimation"
 cp --preserve=a -r ./* "${SYSTEM_OUT}/"
 if [ -n "$PRODUCT_BLOCK" ]; then
-  cp --preserve=a -r ./product/* /product
+  cp --preserve=a -r ./system/* /system
 fi
 if [ -n "$SYSTEM_EXT_BLOCK" ]; then
   cp --preserve=a -r ./system_ext/* /system_ext
