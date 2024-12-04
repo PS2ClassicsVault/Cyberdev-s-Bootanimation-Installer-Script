@@ -67,11 +67,9 @@ It is also recommended that you have installed the device drivers from your manu
 - This script does not include any bootanimation you must provide that on your own, you can do that by extracting the script and placing the bootanimation into the following folder within the script `/system/product/media` then recompress the script and then run the command to flash the script via adb.
 
 ## I'm receving an error when installing the script saying "Not enough space for bootanimation...Aborted!" What can i do?
-- This is happening because you installed a certain gapps package that used most of the capacity of the devices partition required for this script to install to.
+- This is happening because you installed either a certain gapps package that used most of the capacity of the devices partition required for this script to install to or your bootanimation file size exceeds the max capacity of the partition that it's installing it to. Remember not all devices have the same capacity in their partitions so be aware of this potential obstacle!
 
-However, we recommend to install smaller size gapps package like MindTheGapps his/her gapps is small and perfect.
-
-If you're still getting this error pleaee report them please.
+However, if you need extra space, we recommend to install smaller size gapps package like MindTheGapps his/her gapps is small and perfect.
 
 # Additional Information:
 
