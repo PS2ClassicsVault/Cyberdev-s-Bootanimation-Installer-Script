@@ -69,9 +69,9 @@ It is also recommended that you have installed the device drivers from your manu
 ## I'm receving an error when installing the script saying "Not enough space for bootanimation...Aborted!" What can i do?
 - This is happening because you installed a certain gapps package that used most of the capacity of the devices partition required for this script to install to.
 
-However, we recommend to install smaller size gapps package kike MindTheGapps his/her gapps is small and perfect.
+However, we recommend to install smaller size gapps package like MindTheGapps his/her gapps is small and perfect.
 
-If you're still getting this error pleaee report them this.
+If you're still getting this error pleaee report them please.
 
 # Additional Information:
 
