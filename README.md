@@ -71,6 +71,9 @@ It is also recommended that you have installed the device drivers from your manu
 
 However, if you need extra space, we recommend to install smaller size gapps package like MindTheGapps his/her gapps is small and perfect.
 
+## Can i install this on stock firmwares or firmwares with gapps pre-installed?
+- Yes and No, this script is designed similar to a gapps package. Since stock firmwares or custom roms that have gapps pre-installed there is no sufficient space for this script to work with this script only functions if it's being used on a firmware/custom rom that comes with no gapps pre-installed since they can efficiently create sufficient space for this script to work with, once the script is done it will clean any unnecessary data left behind from the script and releasing space the script used!
+
 # Additional Information:
 
 ## WARNING:
