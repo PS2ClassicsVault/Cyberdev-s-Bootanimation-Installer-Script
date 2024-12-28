@@ -82,6 +82,6 @@ Backup any current bootanimations before flashing this script they cannot be rec
 ## Known Working Custom ROMS:
 (This list is version of custom roms i personally tested on and are known to be working, however take this info as only as a reference only)
 
-- LineageOS
-- crDroid
+- [LineageOS](https://lineageos.org/)
+- [crDroid](https://crdroid.net/)
 
