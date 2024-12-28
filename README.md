@@ -80,7 +80,7 @@ However, if you need extra space, we recommend to install smaller size gapps pac
 Backup any current bootanimations before flashing this script they cannot be recovered once you do this, only way to get it back is either via a system update or OS reflash you have been warned, i am not responsible for any damages to your device from using this script or loss of your stock bootanimations that you didn't backup!
 
 ## Known Working Custom ROMS:
-(This list is version of custom roms I personally tested on and are known to be working, however take this info as only as a reference only)
+(This list is version of custom roms i personally tested on and are known to be working, however take this info as only as a reference only)
 
 - LineageOS
 - crDroid
